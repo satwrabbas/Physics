@@ -87,7 +87,12 @@ const Header: React.FC = () => {
   return (
     <header className="space-y-6">
       <div className="flex justify-between items-center">
-        <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white"> تختيم الفيزيا</h1>
+        <img 
+      src="/logo.svg" 
+      alt="شعار التطبيق" 
+      className="w-8 h-8 sm:w-12 sm:h-12 object-contain" 
+    />
+        <h1 className="text-3xl font-extrabold text-slate-800 dark:text-white">رحلة إتقان الفيزياء</h1>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
